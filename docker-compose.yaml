@@ -1,0 +1,15 @@
+version: "3"
+services:
+  gdgapp:
+    container_name: gdg-container
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongo-gdg
+  mongo-gdg:
+    container_name: mongo-gdg
+    image: mongo
+    ports:
+      - "27017:27017"

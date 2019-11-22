@@ -1,0 +1,34 @@
+{
+  "name": "docker-learn",
+  "version": "1.0.0",
+  "description": "Qaada GDG tutorial on docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeridjaNassim/Docker-learn.git"
+  },
+  "keywords": [
+    "Docker",
+    "MERN",
+    "Node",
+    "express",
+    "mongo"
+  ],
+  "author": "Meridja Nassim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeridjaNassim/Docker-learn/issues"
+  },
+  "homepage": "https://github.com/MeridjaNassim/Docker-learn#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
